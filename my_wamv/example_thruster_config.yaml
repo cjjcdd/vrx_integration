@@ -1,0 +1,7 @@
+engine:
+  - prefix: "port"
+    position: "-3.0 1.25 0.2"      # Rear of port hull
+    orientation: "0.0 0.0 0.0"
+  - prefix: "starboard"
+    position: "-3.0 -1.25 0.2"     # Rear of starboard hull
+    orientation: "0.0 0.0 0.0"

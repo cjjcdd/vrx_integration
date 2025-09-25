@@ -1,0 +1,39 @@
+wamv_camera:
+  - name: bow_camera
+    visualize: False
+    x: 3.0
+    y: 0.0
+    z: 2.5
+    R: 0.0
+    P: ${radians(15)}
+    Y: 0.0
+    post_Y: 0.0
+
+wamv_gps:
+  - name: gps_delft372
+    x: 0.0
+    y: 0.0
+    z: 3.0
+    R: 0.0
+    P: 0.0
+    Y: 0.0
+
+wamv_imu:
+  - name: imu_delft372
+    x: 0.0
+    y: 0.0
+    z: 2.0
+    R: 0.0
+    P: 0.0
+    Y: 0.0
+
+lidar:
+  - name: lidar_delft372
+    type: 16_beam
+    x: 2.5
+    y: 0.0
+    z: 3.5
+    R: 0.0
+    P: ${radians(8)}
+    Y: 0.0
+    post_Y: 0.0
